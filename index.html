@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="loan.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="loan.js"></script>
+    <title>Diamond Lending Bank</title>
+</head>
+<body>
+
+<h2>Loan Approval</h2>
+
+<!-- Form To Get Information From User -->
+<form>
+    <fieldset>
+        <legend>Your Information</legend>
+        <!-- Salary -->
+        <label for="salary">What Is Your Salary?</label>
+        <input type="number" id="salary" name="salary" required />
+
+        <br><br>
+
+        <!-- Credit Score -->
+        <label for="credit">What Is Your Credit Score?</label>
+        <input type="number" id="credit" name="credit" required />
+        <br><br>
+
+        <!-- # Of Months At Job -->
+        <label for="months">How Many Months Have You Been At Your Current Job?</label>
+        <input type="number" id="months" name="months" required />
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit" id="submit" name="submit">Check My Approval</button>
+    </fieldset>
+</form>
+
+    <!-- Paragraph To Tell User Whether They Have Been Approved Or Denied -->
+    <p id="approval"></p>
+
+
+
+</body>
+</html>
